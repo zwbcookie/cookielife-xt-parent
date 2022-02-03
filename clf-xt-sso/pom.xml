@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <artifactId>cookielife-xt-parent</artifactId>
+        <groupId>org.zwb</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>clf-xt-sso</artifactId>
+
+    <packaging>pom</packaging>
+    <modules>
+        <module>clf-xt-sso-dao</module>
+        <module>clf-xt-sso-daomin</module>
+        <module>clf-xt-sso-service</module>
+        <module>clf-xt-sso-service-impl</module>
+        <module>clf-xt-sso-model</module>
+        <module>clf-xt-sso-api</module>
+    </modules>
+    <dependencyManagement>
+        <dependencies>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-sso-service-impl</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-sso-service</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-sso-model</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-sso-domain</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-sso-dao</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+            <dependency>
+                <groupId>com.mszlu.xt</groupId>
+                <artifactId>mszlu-xt-common</artifactId>
+                <version>1.0-SNAPSHOT</version>
+            </dependency>
+        </dependencies>
+    </dependencyManagement>
+</project>
