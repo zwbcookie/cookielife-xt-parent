@@ -9,7 +9,7 @@
         <module name="clf-xt-sso-dao" />
         <module name="clf-xt-sso-service" />
         <module name="clf-xt-common" />
-        <module name="clf-xt-sso-daomin" />
+        <module name="clf-xt-sso-domain" />
         <module name="clf-xt-sso-service-impl" />
         <module name="clf-xt-sso-model" />
         <module name="clf-xt-sso-api" />
@@ -25,7 +25,7 @@
       <module name="clf-xt-sso" options="-parameters" />
       <module name="clf-xt-sso-api" options="-parameters" />
       <module name="clf-xt-sso-dao" options="-parameters" />
-      <module name="clf-xt-sso-daomin" options="-parameters" />
+      <module name="clf-xt-sso-domain" options="-parameters" />
       <module name="clf-xt-sso-model" options="-parameters" />
       <module name="clf-xt-sso-service" options="-parameters" />
       <module name="clf-xt-sso-service-impl" options="-parameters" />
